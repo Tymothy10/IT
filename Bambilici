@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+int main(){
+char buf[100];
+int a;
+printf("Jucator A: introdu un numar ");
+a=atoi(gets(buf));
+printf("Jucator B: %d",a);
+a=a+1;
+printf("\n");
+printf("Jucator A: %d",a);
+printf("\n");printf("JUCATOR B: AM CASTIGAT!");
+return 0;
+}
