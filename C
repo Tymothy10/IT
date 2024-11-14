@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdio.h>
+int a,b,s;
+char buf[100];
+int main(){
+printf("Introduceti a: ");
+a=atoi(gets(buf));
+printf("Introduceti b: ");
+b=atoi(gets(buf));
+s=a+b;
+printf("a+b=%d,a-b=%d",s,a-b);
+return 0;}
